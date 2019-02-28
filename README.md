@@ -18,7 +18,7 @@ While the robot is working:
 balls, cats, etc. (R-AvoidMobile).
 Moreover, the robot must stop its activity when one of the following conditions apply:
 1. R-Stop: an authorized user has sent a STOP command by using the console.
-2. R-TempKo: the value temperature of the city becomes higher than the prexed value.
+2. R-TempKo: the value temperature of the city becomes higher than the prefixed value.
 3. R-TimeKo: the current clock time is beyond the given interval.
 4. R-Obstacle: the robot has found an obstacle that it is unable to avoid.
 5. R-End: the robot has finished its work.
