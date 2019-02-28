@@ -9,12 +9,12 @@ The floor in the room is a flat floor of solid material and is equipped with two
 
 The robot works under the following conditions:
 1. R-Start: an authorized user has sent a START command by using a human GUI interface (console) running on a conventional PC or on a smart device (Android).
-2. R-TempOk: the value temperature of the city is not higher than a prexed value (e.g. 25 degrees Celsius).
+2. R-TempOk: the value temperature of the city is not higher than a prefixed value (e.g. 25 degrees Celsius).
 3. R-TimeOk: the current clock time is within a given interval (e.g. between 7 a.m and 10 a.m )
 While the robot is working:
 * it must blink a Led put on it, if the robot is a real robot (R-BlinkLed).
 * it must blink a Led Hue Lamp available in the house, if the robot is a virtual robot (R-BlinkHue).
-* it must avoid xed obstacles (e.g. furniture) present in the room (R-AvoidFix) and/or mobile obstacles like
+* it must avoid fixed obstacles (e.g. furniture) present in the room (R-AvoidFix) and/or mobile obstacles like
 balls, cats, etc. (R-AvoidMobile).
 Moreover, the robot must stop its activity when one of the following conditions apply:
 1. R-Stop: an authorized user has sent a STOP command by using the console.
@@ -25,7 +25,3 @@ Moreover, the robot must stop its activity when one of the following conditions 
 During its work, the robot can optionally:
 * R-Map: build a map of the room floor with the position of the fixed obstacles. Once built, this map can be
 used to define a plan for an (optimal) path form the start-point to the end-point.
-Other requirements:
-1. The work can be done by a team composed of NT people, with 1<=NT<=4.
-2. If NT>1, the team must explicitly indicate the work done by each component.
-3. If NT==4, the requirement R-Map is mandatory.
