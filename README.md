@@ -11,6 +11,7 @@ The robot works under the following conditions:
 1. R-Start: an authorized user has sent a START command by using a human GUI interface (console) running on a conventional PC or on a smart device (Android).
 2. R-TempOk: the value temperature of the city is not higher than a prefixed value (e.g. 25 degrees Celsius).
 3. R-TimeOk: the current clock time is within a given interval (e.g. between 7 a.m and 10 a.m).
+
 While the robot is working:
 * it must blink a Led put on it, if the robot is a real robot (R-BlinkLed).
 * it must blink a Led Hue Lamp available in the house, if the robot is a virtual robot (R-BlinkHue).
