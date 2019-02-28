@@ -1,5 +1,4 @@
-# ISS
-Software Systems Engineering Project
+# Software Systems Engineering Project
 
 ## Requirements
 In a home of a given city (e.g. Bologna), a ddr robot is used to clean the floor of a room (R-FloorClean).
