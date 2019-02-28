@@ -22,6 +22,7 @@ Moreover, the robot must stop its activity when one of the following conditions 
 3. R-TimeKo: the current clock time is beyond the given interval.
 4. R-Obstacle: the robot has found an obstacle that it is unable to avoid.
 5. R-End: the robot has finished its work.
+
 During its work, the robot can optionally:
 * R-Map: build a map of the room floor with the position of the fixed obstacles. Once built, this map can be
 used to define a plan for an (optimal) path form the start-point to the end-point.
